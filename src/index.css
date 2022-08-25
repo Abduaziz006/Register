@@ -1,0 +1,212 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+.container {
+    width: 1560px;
+    height: 1024px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    box-shadow: -13px 13px 10px 5px rgba(0, 0, 0, 0.450);
+    position: relative;
+    border-radius: 50px;
+}
+
+.rectangle {
+    margin-left: 18px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.reg_re {
+    right: -30px;
+    position: absolute;
+    bottom: 155px;
+}
+
+.container-wellcome {
+    padding: 50px;
+}
+
+.color-h2 {
+    color: #6C63FF;
+}
+
+.reg-google button {
+    width: 663px;
+    height: 94px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.250);
+    background-color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+}
+
+.reg-google button p {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.750);
+}
+
+.google-icon {
+    position: absolute;
+    left: 180px;
+    top: 25px;
+}
+
+.reg-facebook button {
+    width: 663px;
+    height: 94px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.250);
+    background-color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+}
+
+.reg-facebook button p {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.750);
+}
+
+.facebook-icon {
+    position: absolute;
+    left: 180px;
+    top: 25px;
+}
+
+.reg-facebook div {
+    margin-top: 46px;
+    text-align: center;
+}
+
+.reg-facebook div .one {
+    width: 296px;
+    float: left;
+}
+
+.reg-facebook div .two {
+    width: 296px;
+    float: right;
+}
+
+.reg-facebook span {
+    user-select: none;  
+}
+
+.email {
+    margin-top: 70px;
+    width: 662px;
+    height: 79px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+.email-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 91px;
+    position: absolute;
+    top: 10px;
+    user-select: none;
+}
+
+.email-input {
+    background-color: #F2F2F2;
+    margin-top: 25px;
+    margin-left: 91px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    height: 29px;
+}
+
+.mail {
+    left: 30px;
+    top: 20px;
+    position: absolute;
+}
+
+.pass {
+    width: 662px;
+    height: 79px;
+    margin-top: 34px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+.pass-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 91px;
+    position: absolute;
+    top: 10px;
+    user-select: none;
+}
+
+.pass-input {
+    background-color: #F2F2F2;
+    margin-top: 25px;
+    margin-left: 91px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    height: 29px;
+}
+
+.key {
+    left: 30px;
+    top: 20px;
+    position: absolute;
+}
+.remem-me {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.abc-remem {
+    margin-top: 19px;
+    position: relative;
+}
+
+.remem span {
+    left: 50px;
+    font-weight: bold;
+    top: 5px;
+    position: absolute;
+    user-select: none;
+}
+
+.remem a {
+    top: 5px;
+    right: 0;
+    position: absolute;
+}
+
+.reg-btn {
+    width: 662px;
+    height: 79px;
+    background-color: #6C63FF;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-top: 67px;
+    cursor: pointer;
+}
+
+.register {
+    margin-top: 28px;
+    text-align: center;
+    font-size: 14px;
+    user-select: none;
+}
